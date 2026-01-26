@@ -10,10 +10,7 @@ A ideia é manter tudo arrumado, fácil de navegar e com espaço para evoluir ta
 ┣ 📂 C++  
 │ ┣ 📂 1001  
 │ ┣ 📂 1002  
-│ ┗ 📂 ...  
-┣ 📂 Java  
-│ ┣ 📂 1001  
-│ ┣ 📂 1002  
+│ ┗ 📂 ...     
 │ ┗ 📂 ...  
 ┣ 📂 Python  
 │ ┣ 📂 1001  
