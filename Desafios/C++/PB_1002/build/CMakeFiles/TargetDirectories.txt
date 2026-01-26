@@ -1,0 +1,3 @@
+C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1002/build/CMakeFiles/PB_1002.dir
+C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1002/build/CMakeFiles/edit_cache.dir
+C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1002/build/CMakeFiles/rebuild_cache.dir
