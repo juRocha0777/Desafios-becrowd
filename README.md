@@ -10,10 +10,7 @@ A ideia é manter tudo arrumado, fácil de navegar e com espaço para evoluir ta
 ┣ 📂 C++  
 │ ┣ 📂 1001  
 │ ┣ 📂 1002  
-│ ┗ 📂 ...  
-┣ 📂 Java  
-│ ┣ 📂 1001  
-│ ┣ 📂 1002  
+│ ┗ 📂 ...     
 │ ┗ 📂 ...  
 ┣ 📂 Python  
 │ ┣ 📂 1001  
@@ -116,15 +113,6 @@ mkdir build; cd build; cmake ..; cmake --build .
 
 ---
 
-## ☕ Como rodar os exercícios em Java
-
-```bash
-javac Main.java
-java Main
-```
-
----
-
 ## 🐍 Como rodar os exercícios em Python
 
 ```bash
@@ -144,7 +132,6 @@ python main.py
 ## 📌 Objetivo do repositório
 
 - Registrar progresso real em algoritmos
-- Treinar lógica em múltiplas linguagens
 - Produzir código limpo e organizado
 - Criar uma base de referência para estudos futuros
 - Preparar-me para o mercado de trabalho
