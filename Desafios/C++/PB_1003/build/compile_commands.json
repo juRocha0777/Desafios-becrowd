@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Programacao/Cpp/PB_1003/build",
+  "command": "c:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/PB_1003.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles\\PB_1003.dir\\src\\main.cpp.obj -c C:\\Programacao\\Cpp\\PB_1003\\src\\main.cpp",
+  "file": "C:/Programacao/Cpp/PB_1003/src/main.cpp",
+  "output": "CMakeFiles/PB_1003.dir/src/main.cpp.obj"
+}
+]
