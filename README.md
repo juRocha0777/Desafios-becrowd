@@ -26,7 +26,7 @@ Cada linguagem tem sua própria árvore independente.
 ## 👤 Sobre mim
 
 Sou **Júnior**, estudante de **Engenharia de Computação**, e estou usando este repositório para treinar lógica, reforçar a base de programação e criar um histórico sólido de prática.  
-Aqui ficam meus exercícios em **C++ (principal)**, **Java** e **Python**.
+Aqui ficam meus exercícios em **C++** e **Python**.
 
 ---
 
