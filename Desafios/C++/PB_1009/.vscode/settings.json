@@ -1,0 +1,50 @@
+{
+    // ==== 🧱 CMake Básico ====
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureOnOpen": true,
+    "cmake.preferredGenerators": ["MinGW Makefiles"],
+    "cmake.buildBeforeRun": true,
+    "cmake.saveBeforeBuild": true,
+    "cmake.statusbar.enabled": true,
+    "cmake.statusbar.advanced": true,
+    "cmake.useCMakePresets": false,
+    "cmake.configureArgs": [
+        "-DCMAKE_BUILD_TYPE=Release"
+    ],
+
+    // ==== ⚙️ Compilador ====
+    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src",
+        "C:/msys64/mingw64/include",
+        "C:/msys64/mingw64/x86_64-w64-mingw32/include",
+        "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+    ],
+
+    // ==== 💬 Clangd ====
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--cross-file-rename",
+        "--log=error",
+        "--pch-storage=memory"
+    ],
+
+    // ==== 🪟 Terminal padrão ====
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // ==== 🧠 Qualidade de vida ====
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "cmake.autoSelectActiveFolder": true,
+    "C_Cpp.errorSquiggles": "enabled",
+    "cSpell.words": [
+        "COMISSAO"
+    ]
+}

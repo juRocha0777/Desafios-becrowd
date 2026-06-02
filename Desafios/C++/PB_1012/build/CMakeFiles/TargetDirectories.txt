@@ -1,0 +1,3 @@
+C:/Programacao/Cpp/PB_1012/build/CMakeFiles/PB_1012.dir
+C:/Programacao/Cpp/PB_1012/build/CMakeFiles/edit_cache.dir
+C:/Programacao/Cpp/PB_1012/build/CMakeFiles/rebuild_cache.dir

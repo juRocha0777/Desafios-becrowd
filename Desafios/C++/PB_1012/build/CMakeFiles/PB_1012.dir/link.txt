@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PB_1012.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\PB_1012.dir/objects.a @CMakeFiles\PB_1012.dir\objects1.rsp
+c:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\PB_1012.dir/objects.a -Wl,--no-whole-archive -o C:\Programacao\Cpp\PB_1012\bin\PB_1012.exe -Wl,--out-implib,libPB_1012.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PB_1012.dir\linkLibs.rsp
