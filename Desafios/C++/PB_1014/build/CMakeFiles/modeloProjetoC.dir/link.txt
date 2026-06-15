@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\modeloProjetoC.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\modeloProjetoC.dir/objects.a @CMakeFiles\modeloProjetoC.dir\objects1.rsp
+c:\msys64\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\modeloProjetoC.dir/objects.a -Wl,--no-whole-archive -o C:\Programacao\programasC\modeloProjetoC\bin\modeloProjetoC.exe -Wl,--out-implib,libmodeloProjetoC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\modeloProjetoC.dir\linkLibs.rsp

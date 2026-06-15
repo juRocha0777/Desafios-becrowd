@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Programacao/programasC/modeloProjetoC/build",
+  "command": "c:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/modeloProjetoC.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -O2 -o CMakeFiles\\modeloProjetoC.dir\\src\\main.cpp.obj -c C:\\Programacao\\programasC\\modeloProjetoC\\src\\main.cpp",
+  "file": "C:/Programacao/programasC/modeloProjetoC/src/main.cpp",
+  "output": "CMakeFiles/modeloProjetoC.dir/src/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+C:/Programacao/programasC/modeloProjetoC/build/CMakeFiles/modeloProjetoC.dir
+C:/Programacao/programasC/modeloProjetoC/build/CMakeFiles/edit_cache.dir
+C:/Programacao/programasC/modeloProjetoC/build/CMakeFiles/rebuild_cache.dir
