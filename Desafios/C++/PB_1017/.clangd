@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - --target=x86_64-w64-windows-gnu
+    - -IC:/msys64/ucrt64/include
+    - -IC:/msys64/ucrt64/include/w32api
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - bugprone-*
+      - modernize-*
+      - performance-*
+      - readability-*

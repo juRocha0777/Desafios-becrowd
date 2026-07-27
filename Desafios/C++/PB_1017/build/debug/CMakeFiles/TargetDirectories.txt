@@ -1,0 +1,4 @@
+C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/PB_1017_c.dir
+C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/PB_1017_cpp.dir
+C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/edit_cache.dir
+C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/rebuild_cache.dir

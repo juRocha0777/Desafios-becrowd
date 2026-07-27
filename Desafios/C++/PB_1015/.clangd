@@ -1,0 +1,22 @@
+CompileFlags:
+  Add:
+    - -std=c++23
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -O2
+    - -I"C:/msys64/mingw64/include"
+    - -I"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+    - -I"C:/msys64/mingw64/include/c++/15.2.0"
+    - -I"C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32"
+    - -I"${workspaceFolder}/include"
+    - -I"${workspaceFolder}/src"
+
+Diagnostics:
+  ClangTidy:
+    Add:
+      - bugprone-*
+      - modernize-*
+      - performance-*
+      - readability-*
+    Remove: [] # Removed invalid/unknown check: clang-analyzer-cplusplus.NewDeleteLeaks

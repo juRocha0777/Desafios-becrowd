@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake: Configure",
+      "type": "shell",
+      "command": "cmake -S . -B build",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: Build",
+      "type": "shell",
+      "command": "cmake --build build --config Release",
+      "dependsOn": "CMake: Configure",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: Clean",
+      "type": "shell",
+      "command": "powershell -NoProfile -Command \"if (Test-Path build) { Remove-Item -Recurse -Force build }\"",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: Build & Run (Auto bin)",
+      "type": "shell",
+      "dependsOn": "CMake: Build",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "if (-not (Test-Path 'bin')) { New-Item -ItemType Directory -Path 'bin' | Out-Null }; $exe = Get-ChildItem -Path 'bin' -Filter *.exe -Recurse | Select-Object -First 1; if (-not $exe) { Write-Host '❌ Nenhum executável encontrado em bin/'; exit 1 }; Write-Host ('🚀 Rodando: ' + $exe.FullName); & $exe.FullName;"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "cmake.useCMakePresets": "always",
+    "cmake.configureOnOpen": true,
+
+    "editor.formatOnSave": true,
+
+    "workbench.editor.enablePreview": false,
+
+    "cmake.autoSelectActiveFolder": true,
+
+    "C_Cpp.errorSquiggles": "enable",
+
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--cross-file-rename",
+        "--log=error",
+        "--pch-storage=memory"
+    ]
+}

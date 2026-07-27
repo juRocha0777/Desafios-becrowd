@@ -1,0 +1,9 @@
+{
+  "pickExeFromBin": {
+    "command": "extension.commandvariable.file.pickFile",
+    "args": {
+      "pattern": "/bin/*.exe",
+      "description": "Selecione o executável da pasta bin"
+    }
+  }
+}
