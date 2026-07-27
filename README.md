@@ -1,153 +1,221 @@
 # Exercícios Beecrowd
 
-Repositório dedicado às minhas soluções dos problemas do **Beecrowd**, organizadas por linguagem.  
-A ideia é manter tudo arrumado, fácil de navegar e com espaço para evoluir tanto em lógica quanto em estrutura de código.
+Repositório dedicado às minhas soluções dos problemas do **Beecrowd**, organizadas por linguagem.
+
+O objetivo é registrar minha evolução em algoritmos, lógica de programação e boas práticas de desenvolvimento, mantendo uma estrutura organizada e consistente para facilitar os estudos e futuras consultas.
 
 ---
 
 ## 📁 Estrutura
 
-┣ 📂 C++  
-│ ┣ 📂 1001  
-│ ┣ 📂 1002  
-│ ┗ 📂 ...     
-│ ┗ 📂 ...  
-┣ 📂 Python  
-│ ┣ 📂 1001  
-│ ┣ 📂 1002  
-│ ┗ 📂 ...  
-┗ README.md
+```text
+.
+├── C++
+│   ├── 1001
+│   ├── 1002
+│   └── ...
+├── Python
+│   ├── 1001
+│   ├── 1002
+│   └── ...
+└── README.md
+```
 
-Cada exercício fica em uma pasta com o número do problema.  
-Cada linguagem tem sua própria árvore independente.
-
----
-
-## 👤 Sobre mim
-
-Sou **Júnior**, estudante de **Engenharia de Computação**, e estou usando este repositório para treinar lógica, reforçar a base de programação e criar um histórico sólido de prática.  
-Aqui ficam meus exercícios em **C++** e **Python**.
+Cada exercício possui sua própria pasta identificada pelo número do problema, permitindo manter as soluções organizadas e independentes entre as linguagens.
 
 ---
 
-## 🔧 C++ com CMake
+## 👨‍💻 Sobre mim
 
-Todos os exercícios em C++ usam o mesmo modelo de CMake.  
-Isso mantém o projeto limpo, padronizado e fácil de compilar em qualquer ambiente.
+Sou **Júnior**, estudante de **Engenharia de Computação**, e utilizo este repositório para praticar programação, fortalecer minha base em algoritmos e construir um histórico consistente de estudos.
 
-### CMakeLists.txt padrão
+Atualmente resolvo os exercícios principalmente em **C++** e **Python**.
+
+---
+
+# 🛠 Ambiente de desenvolvimento (C++)
+
+Os exercícios em C++ utilizam um ambiente moderno baseado em:
+
+* **C++23**
+* **C17**
+* **CMake**
+* **Ninja**
+* **MSYS2 UCRT64 (GCC)**
+* **clangd** para IntelliSense
+* **Cursor** *(recomendo utilizar o modo IDE com as sugestões inline desativadas durante os estudos para incentivar a resolução dos problemas por conta própria).*
+
+Cada exercício possui seu próprio `CMakeLists.txt`, permitindo compilação independente e uma estrutura próxima da utilizada em projetos profissionais.
+
+---
+
+## 📄 CMakeLists.txt padrão
 
 ```cmake
 cmake_minimum_required(VERSION 3.22)
 
-# Nome do projeto baseado na pasta
+# =================================================
+# 🧠 Nome do projeto baseado na pasta
+# =================================================
 get_filename_component(PROJECT_NAME_RAW "${CMAKE_SOURCE_DIR}" NAME)
 string(REPLACE " " "_" PROJECT_NAME "${PROJECT_NAME_RAW}")
-project(${PROJECT_NAME} LANGUAGES C CXX)
 
-# Padrões modernos
+project(${PROJECT_NAME}
+    VERSION 1.0
+    LANGUAGES C CXX
+)
+
+# =================================================
+# ⚙️ Padrões das linguagens
+# =================================================
 set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Diretórios de include
-include_directories("${CMAKE_SOURCE_DIR}/include")
-
-# Fontes
-file(GLOB_RECURSE SRCS
-    "${CMAKE_SOURCE_DIR}/src/*.cpp"
-    "${CMAKE_SOURCE_DIR}/src/*.c"
-)
-
-if(NOT SRCS)
-    message(WARNING "Nenhum arquivo fonte encontrado em src/. Adicione pelo menos um .cpp ou .c")
-endif()
-
-# Executável
-add_executable(${PROJECT_NAME} ${SRCS})
-
-# Warnings
-if(MSVC)
-    target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX)
-else()
-    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Wpedantic -O2)
-endif()
-
-# Diretório do executável
-set_target_properties(${PROJECT_NAME} PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin"
-)
-
-# Build type padrão
-if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
-endif()
-
-# Facilita IntelliSense
+# =================================================
+# 🧠 clangd / IntelliSense
+# =================================================
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Mensagem de status
-message(STATUS "Projeto '${PROJECT_NAME}' configurado!")
-message(STATUS "Binário em: ${CMAKE_SOURCE_DIR}/bin")
-```
+# =================================================
+# 🔍 Arquivos fonte
+# =================================================
+file(GLOB_RECURSE C_SOURCES CONFIGURE_DEPENDS
+    "${CMAKE_SOURCE_DIR}/src/c/*.c"
+)
 
-▶️ Como compilar (C++)
+file(GLOB_RECURSE CPP_SOURCES CONFIGURE_DEPENDS
+    "${CMAKE_SOURCE_DIR}/src/cpp/*.cpp"
+)
 
-Dentro da pasta do exercício:
+# =================================================
+# 🏗️ Executável C
+# =================================================
+if(C_SOURCES)
 
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
-```
+    add_executable(${PROJECT_NAME}_c
+        ${C_SOURCES}
+    )
 
-O executável ficará em `bin/` dentro da pasta do exercício.
+    target_include_directories(${PROJECT_NAME}_c
+        PRIVATE
+            ${CMAKE_SOURCE_DIR}/include
+    )
 
-No Windows (PowerShell), você pode executar os mesmos passos em uma linha:
+endif()
 
-```powershell
-mkdir build; cd build; cmake ..; cmake --build .
+# =================================================
+# 🏗️ Executável C++
+# =================================================
+if(CPP_SOURCES)
+
+    add_executable(${PROJECT_NAME}_cpp
+        ${CPP_SOURCES}
+    )
+
+    target_include_directories(${PROJECT_NAME}_cpp
+        PRIVATE
+            ${CMAKE_SOURCE_DIR}/include
+    )
+
+endif()
+
+# =================================================
+# ⚠️ Warnings
+# =================================================
+if(MSVC)
+
+    add_compile_options(/W4)
+
+else()
+
+    add_compile_options(
+        -Wall
+        -Wextra
+        -Wpedantic
+    )
+
+endif()
+
+# =================================================
+# 📦 Diretório dos executáveis
+# =================================================
+set_target_properties(
+    ${PROJECT_NAME}_c
+    ${PROJECT_NAME}_cpp
+    PROPERTIES
+        RUNTIME_OUTPUT_DIRECTORY
+            "${CMAKE_SOURCE_DIR}/bin"
+)
+
+# =================================================
+# 💬 Informações
+# =================================================
+message("")
+message("===========================================")
+message("🚀 Projeto: ${PROJECT_NAME}")
+message("⚙️ C Compiler: ${CMAKE_C_COMPILER_ID}")
+message("⚙️ C++ Compiler: ${CMAKE_CXX_COMPILER_ID}")
+message("📌 C Standard: ${CMAKE_C_STANDARD}")
+message("📌 C++ Standard: ${CMAKE_CXX_STANDARD}")
+message("===========================================")
+message("")
 ```
 
 ---
 
-## 🐍 Como rodar os exercícios em Python
+## ▶️ Como compilar (C++)
+
+Dentro da pasta do exercício:
 
 ```bash
-cd python/1001
+cmake -B build -G Ninja
+cmake --build build
+```
+
+O executável será gerado automaticamente na pasta `bin/`.
+
+---
+
+## 🐍 Executando os exercícios em Python
+
+Linux/macOS
+
+```bash
+cd Python/1001
 python3 main.py
 ```
 
-No Windows (PowerShell) use `python` em vez de `python3`:
+Windows
 
 ```powershell
-cd python/1001
+cd Python/1001
 python main.py
 ```
 
 ---
 
-## 📌 Objetivo do repositório
+## 📌 Objetivos
 
-- Registrar progresso real em algoritmos
-- Produzir código limpo e organizado
-- Criar uma base de referência para estudos futuros
-- Preparar-me para o mercado de trabalho
-- Consolidar fundamentos de programação e aplicação de estruturas de dados
+* Evoluir em algoritmos e lógica de programação;
+* Consolidar fundamentos de Ciência da Computação;
+* Escrever código limpo, organizado e legível;
+* Criar um histórico consistente da minha evolução;
+* Aplicar boas práticas de desenvolvimento em projetos simples.
 
 ---
 
-## 🌟 Considerações finais
+## 🚀 Considerações finais
 
-Este repositório está em constante evolução.  
-Cada exercício aqui representa um passo real na minha formação como desenvolvedor e como estudante de Engenharia de Computação.
+Este repositório está em constante evolução e acompanha minha jornada como estudante de Engenharia de Computação.
 
-Embora o foco deste repositório seja programação, meu objetivo sempre foi ir além do software: tudo isso se conecta ao meu estudo de **hardware, arquitetura de computadores, Assembly, FPGA e design de processadores**.  
-A lógica que desenvolvo resolvendo problemas é a mesma que aplico quando penso em instrução, pipeline, CPU, memória ou em qualquer coisa que aproxima software do silício.
+Além da resolução dos problemas do Beecrowd, ele também serve como um ambiente para praticar organização de projetos, utilização do CMake, estruturação de código em C e C++, além do uso de ferramentas modernas do ecossistema de desenvolvimento.
 
-Se você chegou até aqui, fique à vontade para explorar, estudar ou comparar soluções.  
-Sugestões e melhorias são sempre bem-vindas — aprender é um processo contínuo.
+Meu maior interesse está na interseção entre **software e hardware**, especialmente em áreas como arquitetura de computadores, sistemas computacionais, Assembly, FPGA e projeto de processadores. A lógica desenvolvida na resolução desses exercícios serve como base para compreender sistemas computacionais em níveis cada vez mais baixos de abstração.
 
-Obrigado por visitar! 🚀
+Se este repositório puder ajudar alguém nos estudos, ficarei muito feliz. Sugestões, correções e melhorias são sempre bem-vindas.
+
+**Bons estudos!** 🚀
