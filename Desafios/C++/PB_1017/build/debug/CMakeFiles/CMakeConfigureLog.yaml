@@ -29,6 +29,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -44,13 +46,30 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
       - "C:/Users/ediso/AppData/Local/Python/bin/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/bin/"
     searched_directories:
+      - "C:/Program Files/PowerShell/7/ninja-build.com"
+      - "C:/Program Files/PowerShell/7/ninja-build.exe"
+      - "C:/Program Files/PowerShell/7/ninja-build"
+      - "C:/Program Files/PowerShell/7/ninja.com"
+      - "C:/Program Files/PowerShell/7/ninja.exe"
+      - "C:/Program Files/PowerShell/7/ninja"
+      - "C:/Program Files/PowerShell/7/samu.com"
+      - "C:/Program Files/PowerShell/7/samu.exe"
+      - "C:/Program Files/PowerShell/7/samu"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja-build.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja-build.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja-build"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/ninja"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/samu.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/samu.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/samu"
       - "C:/Python314/Scripts/ninja-build.com"
       - "C:/Python314/Scripts/ninja-build.exe"
       - "C:/Python314/Scripts/ninja-build"
@@ -139,6 +158,321 @@ events:
     found: "C:/msys64/ucrt64/bin/ninja.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "c:\\Users\\ediso\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\ediso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ediso\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ediso\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\ediso\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
+      - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ediso/AppData/Roaming/npm/"
+      - "C:/Users/ediso/AppData/Local/Python/bin/"
+      - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/cc.com"
+      - "C:/Program Files/PowerShell/7/cc.exe"
+      - "C:/Program Files/PowerShell/7/cc"
+      - "C:/Program Files/PowerShell/7/gcc.com"
+      - "C:/Program Files/PowerShell/7/gcc.exe"
+      - "C:/Program Files/PowerShell/7/gcc"
+      - "C:/Program Files/PowerShell/7/cl.com"
+      - "C:/Program Files/PowerShell/7/cl.exe"
+      - "C:/Program Files/PowerShell/7/cl"
+      - "C:/Program Files/PowerShell/7/bcc.com"
+      - "C:/Program Files/PowerShell/7/bcc.exe"
+      - "C:/Program Files/PowerShell/7/bcc"
+      - "C:/Program Files/PowerShell/7/xlc.com"
+      - "C:/Program Files/PowerShell/7/xlc.exe"
+      - "C:/Program Files/PowerShell/7/xlc"
+      - "C:/Program Files/PowerShell/7/icx.com"
+      - "C:/Program Files/PowerShell/7/icx.exe"
+      - "C:/Program Files/PowerShell/7/icx"
+      - "C:/Program Files/PowerShell/7/clang.com"
+      - "C:/Program Files/PowerShell/7/clang.exe"
+      - "C:/Program Files/PowerShell/7/clang"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cc.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cc.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cc"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cl.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cl.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/cl"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/bcc.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/bcc.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/bcc"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/xlc.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/xlc.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/xlc"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/icx.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/icx.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/icx"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/clang.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/clang.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/clang"
+      - "C:/Python314/Scripts/cc.com"
+      - "C:/Python314/Scripts/cc.exe"
+      - "C:/Python314/Scripts/cc"
+      - "C:/Python314/Scripts/gcc.com"
+      - "C:/Python314/Scripts/gcc.exe"
+      - "C:/Python314/Scripts/gcc"
+      - "C:/Python314/Scripts/cl.com"
+      - "C:/Python314/Scripts/cl.exe"
+      - "C:/Python314/Scripts/cl"
+      - "C:/Python314/Scripts/bcc.com"
+      - "C:/Python314/Scripts/bcc.exe"
+      - "C:/Python314/Scripts/bcc"
+      - "C:/Python314/Scripts/xlc.com"
+      - "C:/Python314/Scripts/xlc.exe"
+      - "C:/Python314/Scripts/xlc"
+      - "C:/Python314/Scripts/icx.com"
+      - "C:/Python314/Scripts/icx.exe"
+      - "C:/Python314/Scripts/icx"
+      - "C:/Python314/Scripts/clang.com"
+      - "C:/Python314/Scripts/clang.exe"
+      - "C:/Python314/Scripts/clang"
+      - "C:/Python314/cc.com"
+      - "C:/Python314/cc.exe"
+      - "C:/Python314/cc"
+      - "C:/Python314/gcc.com"
+      - "C:/Python314/gcc.exe"
+      - "C:/Python314/gcc"
+      - "C:/Python314/cl.com"
+      - "C:/Python314/cl.exe"
+      - "C:/Python314/cl"
+      - "C:/Python314/bcc.com"
+      - "C:/Python314/bcc.exe"
+      - "C:/Python314/bcc"
+      - "C:/Python314/xlc.com"
+      - "C:/Python314/xlc.exe"
+      - "C:/Python314/xlc"
+      - "C:/Python314/icx.com"
+      - "C:/Python314/icx.exe"
+      - "C:/Python314/icx"
+      - "C:/Python314/clang.com"
+      - "C:/Python314/clang.exe"
+      - "C:/Python314/clang"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
+      - "C:/msys64/ucrt64/bin/cc.com"
+    found: "C:/msys64/ucrt64/bin/cc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -193,6 +527,8 @@ events:
     found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -229,7 +565,7 @@ events:
       - "CMakeLists.txt:9 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Compiler: C:/msys64/ucrt64/bin/cc.exe 
       Build flags: 
       Id flags:  
       
@@ -240,7 +576,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/4.3.4/CompilerIdC/a.exe
+        C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/4.3.4/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -263,6 +599,8 @@ events:
       - "ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -277,7 +615,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -288,6 +625,8 @@ events:
     found: "C:/msys64/ucrt64/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -336,6 +675,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -350,7 +691,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -361,6 +701,8 @@ events:
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -409,6 +751,8 @@ events:
       - "strip"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -423,7 +767,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -434,6 +777,8 @@ events:
     found: "C:/msys64/ucrt64/bin/strip.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -482,6 +827,8 @@ events:
       - "ld"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -496,7 +843,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -507,6 +853,8 @@ events:
     found: "C:/msys64/ucrt64/bin/ld.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -555,6 +903,8 @@ events:
       - "nm"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -569,7 +919,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -580,6 +929,8 @@ events:
     found: "C:/msys64/ucrt64/bin/nm.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -628,6 +979,8 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -642,7 +995,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -653,6 +1005,8 @@ events:
     found: "C:/msys64/ucrt64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -701,6 +1055,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -715,7 +1071,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -726,6 +1081,8 @@ events:
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -774,6 +1131,8 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -788,7 +1147,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -799,6 +1157,8 @@ events:
     found: "C:/msys64/ucrt64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -847,6 +1207,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -861,7 +1223,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -872,6 +1233,8 @@ events:
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -920,6 +1283,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -934,7 +1299,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -945,6 +1309,8 @@ events:
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -993,6 +1359,8 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -1007,7 +1375,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -1017,6 +1384,12 @@ events:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
       - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Program Files/PowerShell/7/tapi.com"
+      - "C:/Program Files/PowerShell/7/tapi.exe"
+      - "C:/Program Files/PowerShell/7/tapi"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/tapi.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/tapi.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/tapi"
       - "C:/Python314/Scripts/tapi.com"
       - "C:/Python314/Scripts/tapi.exe"
       - "C:/Python314/Scripts/tapi"
@@ -1059,9 +1432,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
-      - "C:/Program Files/PowerShell/7/tapi.com"
-      - "C:/Program Files/PowerShell/7/tapi.exe"
-      - "C:/Program Files/PowerShell/7/tapi"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/tapi.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/tapi"
@@ -1080,6 +1450,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -1131,6 +1503,8 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -1145,7 +1519,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -1155,6 +1528,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1"
       - "C:/Python314/Scripts/gcc-ar-16.1.com"
       - "C:/Python314/Scripts/gcc-ar-16.1.exe"
       - "C:/Python314/Scripts/gcc-ar-16.1"
@@ -1197,9 +1576,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1"
@@ -1218,6 +1594,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16"
       - "C:/Python314/Scripts/gcc-ar-16.com"
       - "C:/Python314/Scripts/gcc-ar-16.exe"
       - "C:/Python314/Scripts/gcc-ar-16"
@@ -1260,9 +1642,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16"
@@ -1281,6 +1660,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar16"
+      - "C:/Program Files/PowerShell/7/gcc-ar16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16"
       - "C:/Python314/Scripts/gcc-ar16.com"
       - "C:/Python314/Scripts/gcc-ar16.exe"
       - "C:/Python314/Scripts/gcc-ar16"
@@ -1323,9 +1708,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16"
-      - "C:/Program Files/PowerShell/7/gcc-ar16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16"
@@ -1345,6 +1727,8 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -1396,6 +1780,8 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -1410,7 +1796,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -1420,6 +1805,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1"
       - "C:/Python314/Scripts/gcc-ranlib-16.1.com"
       - "C:/Python314/Scripts/gcc-ranlib-16.1.exe"
       - "C:/Python314/Scripts/gcc-ranlib-16.1"
@@ -1462,9 +1853,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1"
@@ -1483,6 +1871,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16"
       - "C:/Python314/Scripts/gcc-ranlib-16.com"
       - "C:/Python314/Scripts/gcc-ranlib-16.exe"
       - "C:/Python314/Scripts/gcc-ranlib-16"
@@ -1525,9 +1919,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16"
@@ -1546,6 +1937,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16"
       - "C:/Python314/Scripts/gcc-ranlib16.com"
       - "C:/Python314/Scripts/gcc-ranlib16.exe"
       - "C:/Python314/Scripts/gcc-ranlib16"
@@ -1588,9 +1985,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16"
@@ -1610,6 +2004,68 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "c:\\Users\\ediso\\AppData\\Local\\Programs\\cursor\\resources\\app\\codeBin"
+        - "C:\\Users\\ediso\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ediso\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ediso\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\ediso\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:9 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/c++.com"
+    found: "C:/msys64/ucrt64/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -1664,6 +2120,8 @@ events:
     found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -1700,7 +2158,7 @@ events:
       - "CMakeLists.txt:9 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/msys64/ucrt64/bin/g++.exe 
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
       Build flags: 
       Id flags:  
       
@@ -1711,7 +2169,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/4.3.4/CompilerIdCXX/a.exe
+        C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/4.3.4/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -1737,6 +2195,8 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -1751,7 +2211,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -1761,6 +2220,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.1"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.1"
       - "C:/Python314/Scripts/gcc-ar-16.1.com"
       - "C:/Python314/Scripts/gcc-ar-16.1.exe"
       - "C:/Python314/Scripts/gcc-ar-16.1"
@@ -1803,9 +2268,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.1"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.1"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.1"
@@ -1824,6 +2286,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar-16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar-16"
       - "C:/Python314/Scripts/gcc-ar-16.com"
       - "C:/Python314/Scripts/gcc-ar-16.exe"
       - "C:/Python314/Scripts/gcc-ar-16"
@@ -1866,9 +2334,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-16"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar-16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar-16"
@@ -1887,6 +2352,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ar16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar16"
+      - "C:/Program Files/PowerShell/7/gcc-ar16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ar16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ar16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ar16"
       - "C:/Python314/Scripts/gcc-ar16.com"
       - "C:/Python314/Scripts/gcc-ar16.exe"
       - "C:/Python314/Scripts/gcc-ar16"
@@ -1929,9 +2400,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar16"
-      - "C:/Program Files/PowerShell/7/gcc-ar16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ar16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ar16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ar16"
@@ -1951,6 +2419,8 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -2002,6 +2472,8 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -2016,7 +2488,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -2026,6 +2497,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.1"
       - "C:/Python314/Scripts/gcc-ranlib-16.1.com"
       - "C:/Python314/Scripts/gcc-ranlib-16.1.exe"
       - "C:/Python314/Scripts/gcc-ranlib-16.1"
@@ -2068,9 +2545,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.1"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.1"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.1"
@@ -2089,6 +2563,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib-16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib-16"
       - "C:/Python314/Scripts/gcc-ranlib-16.com"
       - "C:/Python314/Scripts/gcc-ranlib-16.exe"
       - "C:/Python314/Scripts/gcc-ranlib-16"
@@ -2131,9 +2611,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-16"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib-16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib-16"
@@ -2152,6 +2629,12 @@ events:
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16.com"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16.exe"
+      - "C:/Program Files/PowerShell/7/gcc-ranlib16"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/gcc-ranlib16"
       - "C:/Python314/Scripts/gcc-ranlib16.com"
       - "C:/Python314/Scripts/gcc-ranlib16.exe"
       - "C:/Python314/Scripts/gcc-ranlib16"
@@ -2194,9 +2677,6 @@ events:
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16.com"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16.exe"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib16"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16.com"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16.exe"
-      - "C:/Program Files/PowerShell/7/gcc-ranlib16"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16.com"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16.exe"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/gcc-ranlib16"
@@ -2216,6 +2696,8 @@ events:
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -2266,6 +2748,8 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -2281,7 +2765,6 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "C:/Program Files/PowerShell/7/"
       - "C:/Users/ediso/AppData/Local/Programs/cursor/resources/app/codeBin/"
       - "C:/Users/ediso/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/ediso/AppData/Roaming/npm/"
@@ -2300,6 +2783,12 @@ events:
       - "C:/Program Files (x86)/PB_1017/sbin/"
       - "C:/Program Files (x86)/PB_1017/"
     searched_directories:
+      - "C:/Program Files/PowerShell/7/windres.com"
+      - "C:/Program Files/PowerShell/7/windres.exe"
+      - "C:/Program Files/PowerShell/7/windres"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/windres.com"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/windres.exe"
+      - "C:/Users/ediso/.cursor/extensions/vadimcn.vscode-lldb-1.12.2/bin/windres"
       - "C:/Python314/Scripts/windres.com"
       - "C:/Python314/Scripts/windres.exe"
       - "C:/Python314/Scripts/windres"
@@ -2331,6 +2820,8 @@ events:
     found: "C:/msys64/ucrt64/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "c:\\Users\\ediso\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.2\\bin"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
@@ -2373,8 +2864,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-wl2etw"
-      binary: "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-wl2etw"
+      source: "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-2akigs"
+      binary: "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-2akigs"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2384,19 +2875,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-wl2etw'
+        Change Dir: 'C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-2akigs'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_00191
-        [1/2] C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_25fd3
+        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_00191.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\cc9V7ke7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25fd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTmyN8h.s
         GNU C23 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2414,15 +2905,15 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: 8ce1135867793bb4ef554b26be63cf3e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\cc9V7ke7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTmyN8h.s
         GNU assembler version 2.46.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj -o cmTC_00191.exe -Wl,--out-implib,libcmTC_00191.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj -o cmTC_25fd3.exe -Wl,--out-implib,libcmTC_25fd3.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
@@ -2431,12 +2922,12 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00191.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_00191.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTZqnoh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_00191.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_00191.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25fd3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25fd3.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccyHYy8c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25fd3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_25fd3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTZqnoh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_00191.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_00191.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccyHYy8c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25fd3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_25fd3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00191.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_00191.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25fd3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25fd3.'
         
       exitCode: 0
   -
@@ -2469,19 +2960,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-wl2etw']
+        ignore line: [Change Dir: 'C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-2akigs']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_00191]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_25fd3]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_00191.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\cc9V7ke7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_25fd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTmyN8h.s]
         ignore line: [GNU C23 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2499,8 +2990,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 8ce1135867793bb4ef554b26be63cf3e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\cc9V7ke7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTmyN8h.s]
         ignore line: [GNU assembler version 2.46.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2511,10 +3002,10 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj -o cmTC_00191.exe -Wl --out-implib libcmTC_00191.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj -o cmTC_25fd3.exe -Wl --out-implib libcmTC_25fd3.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
@@ -2530,13 +3021,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00191.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_00191.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTZqnoh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_00191.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_00191.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25fd3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25fd3.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccyHYy8c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25fd3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_25fd3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTZqnoh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccyHYy8c.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2558,7 +3049,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_00191.exe] ==> ignore
+          arg [cmTC_25fd3.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2568,9 +3059,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_00191.dll.a] ==> ignore
+          arg [libcmTC_25fd3.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2595,7 +3086,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccTZqnoh.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_00191.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_00191.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_00191.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccyHYy8c.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25fd3.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_25fd3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_25fd3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -2636,8 +3127,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-grrhhe"
-      binary: "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-grrhhe"
+      source: "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-12rcl2"
+      binary: "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-12rcl2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2648,19 +3139,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-grrhhe'
+        Change Dir: 'C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-12rcl2'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_515f7
-        [1/2] C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_c553d
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_515f7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8WBNMB.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c553d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\ccqjPp5z.s
         GNU C++20 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2684,15 +3175,15 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8WBNMB.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\ccqjPp5z.s
         GNU assembler version 2.46.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_515f7.exe -Wl,--out-implib,libcmTC_515f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c553d.exe -Wl,--out-implib,libcmTC_c553d.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
-        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
@@ -2701,12 +3192,12 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_515f7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_515f7.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccWgYikH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_515f7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_515f7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c553d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c553d.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8B9RlH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c553d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c553d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccWgYikH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_515f7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_515f7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8B9RlH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c553d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c553d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_515f7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_515f7.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c553d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c553d.'
         
       exitCode: 0
   -
@@ -2745,19 +3236,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-grrhhe']
+        ignore line: [Change Dir: 'C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/CMakeScratch/TryCompile-12rcl2']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_515f7]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_c553d]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_515f7.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8WBNMB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c553d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\ediso\\AppData\\Local\\Temp\\ccqjPp5z.s]
         ignore line: [GNU C++20 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2781,8 +3272,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8WBNMB.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ediso\\AppData\\Local\\Temp\\ccqjPp5z.s]
         ignore line: [GNU assembler version 2.46.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2793,10 +3284,10 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_515f7.exe -Wl --out-implib libcmTC_515f7.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c553d.exe -Wl --out-implib libcmTC_c553d.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-16.1.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,c++,ada,fortran,lto,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-tls --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-lto --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
@@ -2812,13 +3303,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_515f7.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_515f7.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccWgYikH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_515f7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_515f7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c553d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c553d.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8B9RlH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c553d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c553d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccWgYikH.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8B9RlH.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2840,7 +3331,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_515f7.exe] ==> ignore
+          arg [cmTC_c553d.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2850,9 +3341,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_515f7.dll.a] ==> ignore
+          arg [libcmTC_c553d.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2878,7 +3369,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\ccWgYikH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_515f7.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_515f7.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_515f7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ediso\\AppData\\Local\\Temp\\cc8B9RlH.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c553d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_c553d.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_c553d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

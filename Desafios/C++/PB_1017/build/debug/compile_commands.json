@@ -1,14 +1,14 @@
 [
 {
-  "directory": "C:/Programacao/Cpp/PB_1017/build/debug",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe -IC:/Programacao/Cpp/PB_1017/include -g -std=gnu17 -o CMakeFiles\\PB_1017_c.dir\\src\\c\\main.c.obj -c C:\\Programacao\\Cpp\\PB_1017\\src\\c\\main.c",
-  "file": "C:/Programacao/Cpp/PB_1017/src/c/main.c",
-  "output": "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/PB_1017_c.dir/src/c/main.c.obj"
+  "directory": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug",
+  "command": "C:\\msys64\\ucrt64\\bin\\cc.exe -IC:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/include -std=gnu17 -o CMakeFiles\\PB_1017_c.dir\\src\\c\\main.c.obj -c C:\\Programacao\\Repositorios-Github\\Desafios-becrowd\\Desafios\\C++\\PB_1017\\src\\c\\main.c",
+  "file": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/src/c/main.c",
+  "output": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/PB_1017_c.dir/src/c/main.c.obj"
 },
 {
-  "directory": "C:/Programacao/Cpp/PB_1017/build/debug",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Programacao/Cpp/PB_1017/include -g -std=c++23 -o CMakeFiles\\PB_1017_cpp.dir\\src\\cpp\\main.cpp.obj -c C:\\Programacao\\Cpp\\PB_1017\\src\\cpp\\main.cpp",
-  "file": "C:/Programacao/Cpp/PB_1017/src/cpp/main.cpp",
-  "output": "C:/Programacao/Cpp/PB_1017/build/debug/CMakeFiles/PB_1017_cpp.dir/src/cpp/main.cpp.obj"
+  "directory": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/include -std=c++23 -o CMakeFiles\\PB_1017_cpp.dir\\src\\cpp\\main.cpp.obj -c C:\\Programacao\\Repositorios-Github\\Desafios-becrowd\\Desafios\\C++\\PB_1017\\src\\cpp\\main.cpp",
+  "file": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/src/cpp/main.cpp",
+  "output": "C:/Programacao/Repositorios-Github/Desafios-becrowd/Desafios/C++/PB_1017/build/debug/CMakeFiles/PB_1017_cpp.dir/src/cpp/main.cpp.obj"
 }
 ]
